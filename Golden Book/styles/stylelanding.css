@@ -1,0 +1,307 @@
+@font-face {
+    font-family: KarlaReg;
+    src: url(fonts/Karla-Regular.ttf);
+}
+
+@font-face {
+    font-family: KarlaItl;
+    src: url(fonts/Karla-Italic.ttf);
+}
+
+@font-face {
+    font-family: MontserratReg;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoReg;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    width: 22.5px;
+    height: 15px;
+    display: block;
+    cursor: pointer;
+}
+
+.bar {
+    background-color: #F2EFDC;
+    border-radius: 20px;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin-top: 2px;
+}
+
+header {
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
+    padding: 10px 90px;
+    height: 85px;
+}
+
+header h1 {
+    font-family: "MontserratReg", sans-serif;
+    color: #F2EFDC;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78.02px;
+    margin-left: 33.75px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.avatar {
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.background {
+    width: 100%;
+    height: 879px;
+    background-color: black;
+    padding: 90px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+        url("/images/Signup\ background.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    transition: width 0.5s ease 0;
+}
+
+.overlay--active {
+    width: 300px;
+    display: block;
+  }
+
+  .overlay .close {
+    position: absolute;
+    top: -30px;
+    left: 250px;
+    padding: 15px;
+    font-size: 44px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .overlay__content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+
+.overlay_content ul a {
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    color: #F2EFDC;
+    font-family: "KarlaReg", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 1.25px;
+    transition: background-color 0.3s ease 0s;
+
+}
+
+
+ul li:hover{
+    background-color: #4C463D;
+}
+
+.pretraga h1 {
+    width: 300px;
+    height: 39px;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "MonserratReg", sans-serif;
+    color: #F2EFDC;
+}
+
+#deference {
+    color: #F2EFDC;
+    font-family: "MonserratReg", sans-serif;
+}
+
+
+.pretraga-btn {
+    height: 56px;
+    width: 615px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.kolona1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+
+.kolona1 div {
+    width: 33%;
+
+}
+
+
+.kolona2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+
+.kolona2 div {
+    width: 33%;
+}
+
+
+.kartica {
+    color: #160F09;
+    background-color: #F2EFDC;
+    height: 292px;
+    width: 398px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+
+
+}
+
+
+.kartica {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.kartica div {
+    width: 50%;
+}
+
+
+.kartica h2 {
+    font-family: "MonserratReg", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    margin-left: 20px;
+    margin-top: 21px;
+    margin-bottom: 14px;
+    text-align: center;
+    display: flex;
+}
+
+.kartica img{
+margin-left: 20px;
+border-radius: 4px;
+
+}
+
+
+.kartica p {
+    font-family: "MonserratReg", sans-serif;
+    font-size: 12px;
+
+}
+
+.kartica p {
+    margin-top: 10px;
+}
+
+
+.kartica a {
+    text-decoration: none;
+    color: #F2EFDC;
+
+}
+
+.kartica button {
+    height: 24px;
+    width: 135px;
+    left: 605px;
+    top: 243px;
+    border-radius: 4px;
+    background-color: #837E72;
+    border-color: #837E72;
+    margin-top: 22px;
+    
+}
+
+
+.kartica button a{
+    font-family: "RobotoReg", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 1.25px;
+    text-align: center;
+    border-color: #837E72;
+}
+
+.pages {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pages p{
+    color: #F2EFDC;
+
+}
+
+
+
+
+
+
+footer {
+    color: #F2EFDC;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
+    width: 100%;
+    height: 60px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "KarlaReg", sans-serif;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

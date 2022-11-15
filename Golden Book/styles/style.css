@@ -1,0 +1,126 @@
+@font-face {
+    font-family: KarlaReg;
+    src: url(fonts/Karla-Regular.ttf);
+}
+
+@font-face {
+    font-family: KarlaItl;
+    src: url(fonts/Karla-Italic.ttf);
+}
+
+@font-face {
+    font-family: MontserratReg;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: black;
+    padding: 50px 55px;
+}
+
+
+.background {
+    width: 100%;
+    max-width:1440px;
+    height: 100%;
+    max-height:1024px;
+    padding: 100px;
+    background-color: black;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+        url("/images/Signup\ background.png");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+  }
+    
+
+  .background div {
+    width: 50%;
+  }
+
+.left h1 {
+    font-family: "MontserratReg", sans-serif;
+    text-align: left;
+    color: #F2EFDC;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78.02px;
+    display: flex;
+}
+
+
+
+.right span {
+    color: #F2EFDC;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 42.08px;
+    text-align: right;
+    font-family: "KarlaItl", sans-serif;
+}
+
+button a {
+    text-decoration: none;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.87) ;
+    font-family: "KarlaReg", sans-serif;
+}
+
+
+
+.small {
+    width: 88px;
+    height: 36px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    background-color: #F2EFDC;
+    color: rgba(0, 0, 0, 0.87);
+    align-items: right;
+    border-color: #F2EFDC;
+
+}
+
+
+
+.big {
+    width: 400px;
+    height: 62px;
+    background-color: #F2EFDC;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    border-color: #F2EFDC;
+}
+
+.right h1 {
+    color: #F2EFDC;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.51px;
+    text-align: center;
+    font-family: "MontserratReg", sans-serif;
+
+}
+
+footer {
+    color: #F2EFDC;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "KarlaReg", sans-serif;
+    line-height: 36px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    
+}

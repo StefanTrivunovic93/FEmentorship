@@ -1,0 +1,213 @@
+@font-face {
+    font-family: KarlaReg;
+    src: url(fonts/Karla-Regular.ttf);
+}
+
+@font-face {
+    font-family: KarlaItl;
+    src: url(fonts/Karla-Italic.ttf);
+}
+
+@font-face {
+    font-family: MontserratReg;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoReg;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.sidebar {
+    width: 22.5px;
+    height: 15px;
+    display: block;
+}
+
+.bar {
+    background-color: #F2EFDC;
+    border-radius: 20px;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin-top: 2px;
+}
+
+header {
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
+    padding: 10px 90px;
+    height: 85px;
+}
+
+header h1 {
+    font-family: "MontserratReg", sans-serif;
+    color: #F2EFDC;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78.02px;
+    margin-left: 33.75px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.avatar {
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.background {
+    width: 100%;
+    height: 879px;
+    background-color: black;
+    padding: 90px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+        url("/images/Signup\ background.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 100%;
+}
+
+.overlay_content ul a {
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: #F2EFDC;
+    font-family: "KarlaReg", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 1.25px;
+    text-align: left;
+    transition: background-color 0.3s ease 0s;
+
+}
+
+ul li:hover{
+    background-color: #4C463D;
+}
+
+.background h1 {
+    font-family: "MonserratReg", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    color: #F2EFDC;
+    display: flex;
+    margin-bottom: 46px;
+
+
+}
+
+.kartica {
+    background-color: #F2EFDC;
+    height: 540px;
+    width: 1050px;
+    border-radius: 4px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.kartica div {
+    width: 50%;
+}
+
+.kartica h2{
+    font-family: "MonserratReg", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #160F09;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 31px;
+
+
+}
+
+.kartica img{
+    height: 420px;
+    width: 270px;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+
+.kartica h2{
+    font-family: "MonserratReg", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+}
+
+.kartica p{
+    font-family: "KarlaReg", sans-serif;
+    font-size: 20px;
+    color: #160F09;
+}
+
+
+.all {
+    margin-top: 90px;
+}
+
+.background button{
+    display: flex;
+    height: 62px;
+    width: 200px;
+    border-radius: 4px;
+    padding: 0px 16px 0px 16px;
+    background-color: #837E72;
+    border-color: #837E72;
+    margin-left: auto;
+    margin-top: 41px;
+
+}
+
+.background button a{
+    text-decoration: none;
+    text-align: center;
+    color: #F2EFDC;
+    font-size: 24px;
+    font-family: "KarlaReg", sans-serif;
+
+}
+
+
+
+
+footer {
+    color: #F2EFDC;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
+    width: 100%;
+    height: 60px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "KarlaReg", sans-serif;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

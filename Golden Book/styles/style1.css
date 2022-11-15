@@ -1,0 +1,157 @@
+@font-face {
+    font-family: KarlaReg;
+    src: url(fonts/Karla-Regular.ttf);
+}
+
+@font-face {
+    font-family: KarlaItl;
+    src: url(fonts/Karla-Italic.ttf);
+}
+
+@font-face {
+    font-family: MontserratReg;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    width: 100%;
+    height: 1024px;
+    padding: 50px;
+    background-color: black;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+      url("/images/Signup\ background.png");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+  }
+
+
+  .background div {
+    width: 50%;
+  }
+
+
+.left h1 {
+    font-family: "MontserratReg", sans-serif;
+    text-align: left;
+    color: #F2EFDC;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78.02px;
+    display: flex;
+
+}
+
+.right h1{
+    width: 500px;
+    height: 59px;
+    color: #F2EFDC;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.51px;
+    font-family: "MontserratReg", sans-serif;
+    text-align: left;
+
+}
+
+
+p{
+    font-family: "KarlaReg", sans-serif;
+    text-align: right;
+    color: #F2EFDC;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+
+}
+
+.error, .error2 {
+    color: red;
+    text-align: left;
+    font-family: "KarlaReg", sans-serif;
+}
+
+
+
+.display-none{
+    display: none;
+}
+
+input {
+    font-family: "KarlaReg", sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    width: 400px;
+    height: 56px;
+    gap: 10px;
+    background-color:#F2EFDC ;
+    border-color: #F2EFDC;
+
+}
+
+button{
+  
+    width: 400px;
+    height: 62px;
+    background-color: #F2EFDC;
+    font-size: 24px;
+    line-height: 36px;
+    border-color: #F2EFDC;
+
+}
+button a{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "KarlaReg", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #F2EFDC;
+}
+p a{
+    text-decoration: underline;
+}
+
+.ulaz p a:hover{
+    color: blue;
+}
+
+.ulaz p a:hover{
+    transition: color 0.3s ease 0s;
+}
+
+.ulaz button,
+button a:hover{
+    color: #F2EFDC;
+}
+
+.ulaz button,
+button a:hover{
+    transition: color 0.3s ease 0s;
+}
+
+
+
+
+
+footer{
+    color: #F2EFDC;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "KarlaReg", sans-serif;
+    line-height: 36px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

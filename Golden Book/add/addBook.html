@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addBook</title>
+    <link rel="stylesheet" href="addBook.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <i class="sidebar">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </i>
+            <h1>Golden Book.</h1>
+            <button class="avatar"> <a href=""></a> <img src="/images/avatar pravi.png"></button>
+        </nav>
+    </header>
+
+    <div class="background">
+
+        <div class="overlay">
+            <a class="close">&times;</a>
+            <div class="overlay_content">
+                <ul>
+                    <li><a href="/landingpage.html">HOMEPAGE</a></li>
+                    <li><a href="">CATEGORIES</a></li>
+                    <ul>
+                        <li><a href="/General.html">General</a></li>
+                        <li> <a href="">History</a></li>
+                        <li> <a href="">Fantasy</a></li>
+                        <li> <a href="">Literary</a></li>
+                    </ul>
+                    <li> <a href="/add/addBook.html">Books</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="mainBox">
+            <h1>Add Book</h1>
+            <form action="/landingpage.html" id="form">
+            <div>
+                <div class="box">
+                        <div class="box1">
+                            <div class="left">
+                                <label for="Image Url"></label>
+                                <input type="text" placeholder="Image Url" id="image" class="form-control">
+                                <p class="error">Image Url is not valid!</p>
+                                <select name="Author" id="authorDropdown"></select>
+                                <select name="Chategory" id="chategoryDropdown"></select>
+                            </div>
+                            <div class="right">
+                                <label for="Title"></label>
+                                <input type="text" placeholder="Title" id="title" class="form-control">
+                                <p class="error1">Title is not valid!</p>
+                                <label for="Year"></label>
+                                <input type="text" placeholder="Year" id="year" class="form-control">
+                                <p class="error2">Year must be 2022!</p>
+                                <label for="ISBN"></label>
+                                <input type="text" placeholder="ISBN" id="isbn" class="form-control">
+                                <p class="error3">ISBN is not valid!</p>
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <label for="Description"></label>
+                            <input type="text" placeholder="Description" id="description" class="form-control">
+                            <p class="error4">Description is too long!</p>
+                        </div>
+                </div>
+            </div>
+            <input type="button" value="CANCEL" id="cancel">
+            <input type="submit" value="SAVE" id="save">
+        </form>
+        </div>
+
+
+    </div>
+
+    <footer>Orion innovation- ANGULAR WORKSHOP 2022</footer>
+
+    <script src="/add/addBook.js"></script>
+</body>
+
+</html>
