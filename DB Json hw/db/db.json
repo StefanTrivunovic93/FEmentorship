@@ -1,0 +1,12 @@
+{
+  "chategories": [
+    {
+      "categoryName": "Geography",
+      "id": 1
+    },
+    {
+      "categoryName": "History",
+      "id": 2
+    }
+  ]
+}

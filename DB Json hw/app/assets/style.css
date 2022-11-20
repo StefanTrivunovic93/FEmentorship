@@ -1,0 +1,41 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(135, 206, 235, 1) 45%, rgba(0, 212, 255, 1) 100%);
+}
+
+.main {
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.formGroup {
+    display: flex;
+    justify-content: center;
+}
+
+.main h1 {
+    color: skyblue;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.formGroup input,
+.formGroup button {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: skyblue;
+    border-color: skyblue;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.table {
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+    color: darkblue;
+}
